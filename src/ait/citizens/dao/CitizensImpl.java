@@ -9,18 +9,20 @@ public class CitizensImpl implements Citizens {
     private List<Person> idList;
     private List<Person> lastNameList;
     private List<Person> ageList;
-    private static  Comparator<Person> lastNameComparator;
-    private static  Comparator<Person> ageComparator;
+    private static Comparator<Person> lastNameComparator;
+    private static Comparator<Person> ageComparator;
+
+    public CitizensImpl() {
+        //TODO
+    }
+
+    public CitizensImpl(List<Person> citizens) {
+        //TODO
+    }
 
     @Override
     public boolean add(Person person) {
         return false;
-    }
-    public CitizensImpl() {
-
-    }
-    public CitizensImpl(List<Person> citizens) {
-
     }
 
     @Override
